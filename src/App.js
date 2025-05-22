@@ -14,7 +14,7 @@ function App() {
         <Box sx={{ background: "#ffff" }}>
           <Navebar />
           <Routes>
-            <Route path="/" element={<Feed/>}/>
+            <Route path="/YouTubeClone" element={<Feed/>}/>
             <Route path="/video/:id" element={<VideoDetail/>}/>
             <Route path="/channel/:id" element={<ChannelDetail/>}/>
             <Route path="/search/:searhTerm" element={<SearchFeed/>}/>
