@@ -16,7 +16,7 @@ export default function Navebar() {
           justifyContent: "space-between",
         }}
       >
-        <Link to={"/"} style={{ display: "flex", alignItems: "center" }}>
+        <Link to={"/YouTubeClone"} style={{ display: "flex", alignItems: "center" }}>
           <img src={logo} alt="logo" height={45} />
         </Link>
         <SearchBar />
